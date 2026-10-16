@@ -1,0 +1,10 @@
+const helloWorld = (nome="Visitantes") =>{
+    let frase = `Olá, ${nome}!`;
+    return frase;
+}
+
+
+console.log(helloWorld("Diome"))
+console.log(helloWorld("Gervasio"))
+console.log(helloWorld("Alicia"))
+console.log(helloWorld("Giseli"))
